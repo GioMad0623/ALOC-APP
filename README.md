@@ -101,3 +101,23 @@ Contact:
 ## 📄 License
 
 MIT License – You may use, modify, and share freely with attribution.
+
+
+
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.env
+
+# Node.js
+node_modules/
+npm-debug.log
+.env
+
+# Expo
+.expo/
+.expo-shared/
+
+# VS Code
+.vscode/
