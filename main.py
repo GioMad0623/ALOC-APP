@@ -1,4 +1,8 @@
-Move main.py to root
-main.py
-requirements.txt
-README.md
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get("/")
+def read_root():
+    return {"message": "Hello from A.L.O.C. backend"}
+
