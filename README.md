@@ -121,3 +121,12 @@ npm-debug.log
 
 # VS Code
 .vscode/
+
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get("/")
+def read_root():
+    return {"message": "Hello from A.L.O.C. backend"}
+
